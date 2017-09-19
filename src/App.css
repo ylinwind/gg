@@ -1,0 +1,18 @@
+html,body,#box{
+    height: 100%;
+}
+#box>div{
+    height: 100%;
+}
+.leftSide{
+    width: 30%;
+    height: 100%;
+    background: lightblue;
+    float: left;
+}
+.rightSide{
+    width: 60%;
+    height: 100%;
+    background: lightcyan;
+    float: right;
+}

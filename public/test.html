@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+    <style type="text/css">
+        html{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .box {
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+          background: red;  
+          position: absolute;
+        }
+    </style>
+</head>
+<body>
+   <!-- <button onclick="resizeTO()">加载新资源</button> -->
+    <script type="text/javascript">
+    // alert(a); 整个函数内容
+    // a();10
+    // var a = 3;
+    // function a(){
+    //     alert(10)
+    // }
+    // alert(a);3
+    // a = 6;
+    // a(); 没有弹窗
+/////////-------------------------
+
+    function resizeTO(){
+        // console.log(1);
+        // window.resizeTo(500,400);
+        location.assign('http://www.baidu.com');
+    }
+    // console.log(window.innerWidth,window.innerHeight,'innerWidth-innerHwight')
+    // console.log(document.body.clientWidth,document.documentElement.clientHeight,'innerWidth-innerHwight')
+    // console.log(window.screen.availWidth,window.screen.availHeight,'可用屏幕宽度，高度')
+    // console.log(window.location.pathname,window.location.protocol,window.location.port)
+    console.log(window.navigator)
+       /* window.onload = function(){
+            
+            var body = document.getElementsByTagName('body')[0];
+            console.log(body)
+            clearInterval(timer1);
+            var timer1 = setInterval(function(){
+                var left = Math.random()*500,
+                    right = Math.random()*500,
+                    top = Math.random()*500,
+                    bottom = Math.random()*500;
+                var obj = document.createElement('div');
+                obj.className = 'box';
+                obj.style.left = left + 'px';
+                obj.style.right = right + 'px';
+                obj.style.top = top + 'px';
+                body.appendChild(obj);
+            },100);
+        }*/
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+</body>
+</html>
