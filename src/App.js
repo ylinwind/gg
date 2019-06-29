@@ -16,7 +16,7 @@ class App extends React.Component{
                     <hr/>
                     {this.props.state.name}
                     <button onClick={this.handleClick.bind(this)}>变变变</button>
-                    <br/>
+                    <hr/>
                     <Link to="artcle">artcle</Link>
                     <br/>
                     <Link to="story">story</Link>
