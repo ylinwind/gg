@@ -13,7 +13,7 @@ class App extends React.Component{
             <div>
                 <div className="leftSide">
                     msg
-                    <br/>
+                    <hr/>
                     {this.props.state.name}
                     <button onClick={this.handleClick.bind(this)}>变变变</button>
                     <br/>
